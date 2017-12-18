@@ -6,7 +6,7 @@ The project is basically implementation of a web crawler project implemented usi
 ## Getting Started
 
 Just download the whole repository in zip format ,unzip it. Then double click the python file named 'Spoj Teller'. It will open a console where on screen instructions are provided.
-
+![Alt text](https://github.com/grandpriest/Spoj-Teller/blob/master/Spoj%20Teller/Screenshot%20(43).png)
 
 ### Prerequisites
 
@@ -20,6 +20,8 @@ Just download the whole repository in zip format ,unzip it. Then double click th
 ### Installing
 
 Download all the files of repository. Create a project in IDE and add the files('SourceCode-Spoj Teller.py') to the project. Then build and run the project.
+![Alt text](https://github.com/grandpriest/Spoj-Teller/blob/master/Spoj%20Teller/Screenshot%20(44).png)
+
 
 ## Contributing
 
