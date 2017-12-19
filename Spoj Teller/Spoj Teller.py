@@ -72,18 +72,18 @@ def fun3():
 screen=Tk();
 screen.title("Spoj Teller");
 screen.resizable(width=False,height=False);
-frame=Frame(screen,width=1000,height=500,bg="lightblue");
+frame=Frame(screen,width=1000,height=500,bg="khaki3");
 frame.grid(row=0,column=0);
 
 #*******Spoj Teller******
-lab0=Label(frame,text="The Spoj Teller",bg="light blue",fg="blue");
+lab0=Label(frame,text="The Spoj Teller",bg="khaki3",fg="gray23");
 lab0.grid(row=0,column=1,columnspan=1,sticky="W");
 lab0.config(font=("Times New Roman",45,"bold"));
 
 
 #*******Enter The Handle*********
-ent=Entry(frame,bg="lightgreen",relief=SUNKEN,bd=5);
-lab1=Label(frame,text="Handle",fg="dark green",bg="light blue",bd=2);
+ent=Entry(frame,bg="ivory2",relief=SUNKEN,bd=5);
+lab1=Label(frame,text="Handle",fg="gray23",bg="khaki3",bd=2);
 lab1.grid(row=1,column=0,columnspan=2,sticky="W");
 lab1.config(font=("Times New Roman",25));
 ent.grid(row=1,column=2,sticky="W");
@@ -91,56 +91,56 @@ ent.config(font=("Comic sans",20,"italic"));
 
 
 #*******Solved Questions*********
-lab2=Label(frame,text="Solved questions",fg="dark green",bg="light blue",bd=2);
+lab2=Label(frame,text="Solved questions",fg="gray23",bg="khaki3",bd=2);
 lab2.grid(row=2,column=0,columnspan=1,sticky="W");
 lab2.config(font=("Times New Roman",25));
-tex=Text(frame,width=15,height=1,bg="lightgreen",relief=SUNKEN,bd=5);
+tex=Text(frame,width=15,height=1,bg="ivory2",relief=SUNKEN,bd=5);
 tex.grid(row=2,column=2,sticky="W",columnspan=2);
 tex.config(font=("Comic sans",20,"italic"));
 
 #********Solution Submitted******
-lab3=Label(frame,text="Solution Submitted",fg="dark green",bg="light blue",bd=2);
+lab3=Label(frame,text="Solution Submitted",fg="gray23",bg="khaki3",bd=2);
 lab3.grid(row=3,column=0,columnspan=1,sticky="W");
 lab3.config(font=("Times New Roman",25));
-tex2=Text(frame,width=15,height=1,bg="lightgreen",relief=SUNKEN,bd=5);
+tex2=Text(frame,width=15,height=1,bg="ivory2",relief=SUNKEN,bd=5);
 tex2.grid(row=3,column=2,sticky="W",columnspan=2);
 tex2.config(font=("Comic sans",20,"italic"));
 
 #********Belongs To*************
-lab4=Label(frame,text="Belongs To",fg="dark green",bg="light blue",bd=2);
+lab4=Label(frame,text="Belongs To",fg="gray23",bg="khaki3",bd=2);
 lab4.grid(row=4,column=0,columnspan=1,sticky="W");
 lab4.config(font=("Times New Roman",25));
-tex3=Text(frame,width=15,height=1,bg="lightgreen",relief=SUNKEN,bd=5);
+tex3=Text(frame,width=15,height=1,bg="ivory2",relief=SUNKEN,bd=5);
 tex3.grid(row=4,column=2,sticky="W",columnspan=2);
 tex3.config(font=("Comic sans",20,"italic"));
 
 
 #*********Rank***************
-lab5=Label(frame,text="Rank",fg="dark green",bg="light blue",bd=2);
+lab5=Label(frame,text="Rank",fg="gray23",bg="khaki3",bd=2);
 lab5.grid(row=5,column=0,columnspan=1,sticky="W");
 lab5.config(font=("Times New Roman",25));
-tex4=Text(frame,width=15,height=1,bg="lightgreen",relief=SUNKEN,bd=5);
+tex4=Text(frame,width=15,height=1,bg="ivory2",relief=SUNKEN,bd=5);
 tex4.grid(row=5,column=2,sticky="W",columnspan=2);
 tex4.config(font=("Comic sans",20,"italic"));
 
 #*********Last Seen***************
-lab6=Label(frame,text="Last Seen",fg="dark green",bg="light blue",bd=2);
+lab6=Label(frame,text="Last Seen",fg="gray23",bg="khaki3",bd=2);
 lab6.grid(row=6,column=0,columnspan=1,sticky="W");
 lab6.config(font=("Times New Roman",25));
-tex5=Text(frame,width=15,height=1,bg="lightgreen",relief=SUNKEN,bd=5);
+tex5=Text(frame,width=15,height=1,bg="ivory2",relief=SUNKEN,bd=5);
 tex5.grid(row=6,column=2,sticky="W",columnspan=2);
 tex5.config(font=("Comic sans",20,"italic"));
 
 #*******Buttons*********
-submit=Button(frame,text="Find",fg="black",bg="grey",command=fun);
+submit=Button(frame,text="Find",fg="black",bg="ivory4",command=fun);
 submit.grid(row=8,column=1,sticky="N");
 submit.config(font=("Comic sans",20));
 
-clearing=Button(frame,text="Clear",bg="grey",command=fun3);
+clearing=Button(frame,text="Clear",bg="ivory4",command=fun3);
 clearing.grid(row=8,column=0,sticky="W");
 clearing.config(font=("Comic sans",20));
 
-exi=Button(frame,text="Exit",fg="black",bg="grey",command=fun2);
+exi=Button(frame,text="Exit",fg="black",bg="ivory4",command=fun2);
 exi.grid(row=8,column=2,sticky="E");
 exi.config(font=("Comic sans",20));
 
