@@ -2,7 +2,7 @@
 
 The project is basically implementation of a web crawler project implemented using the GUI. It takes the handle of the user as input and gives all the details related to its account like number of problems solved,number of solutions submitted, where the user is from ,its world rank and when was he last active. The coding part is done using Python-3 language. The GUI was provided using TKINTER module, while the web crawling was done using combination of urllib.request and re modules.
 
-![Alt text](https://github.com/grandpriest/Spoj-Teller/blob/master/Spoj%20Teller/Screenshot%20(43).png)
+![Alt text](https://github.com/grandpriest/Spoj-Teller/blob/master/Spoj%20Teller/Screenshot%20(45).png)
 
 ## Getting Started
 
