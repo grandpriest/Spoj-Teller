@@ -15,7 +15,7 @@ Just download the whole repository in zip format ,unzip it. Then double click th
 	2.Familiarity with the classes and functions related to re and urlliob.request module along with knowledge of string manupulations.
 #### Software and Tools
 	1.Any Python IDE(I used Pycharm)
-	2.Proper internet connection and web crawling can't be done without it 
+	2.Proper internet connection as web crawling can't be done without it 
 
 ### Installing
 
